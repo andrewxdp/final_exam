@@ -1,3 +1,5 @@
+import 'package:final_exam_650710556/answer1.dart';
+import 'package:final_exam_650710556/answer2.dart';
 import 'package:final_exam_650710556/ready_for_exam.dart';
 import 'package:flutter/material.dart';
 
@@ -32,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ReadyForExam(),
+      home: const Answer1(),
     );
   }
 }
